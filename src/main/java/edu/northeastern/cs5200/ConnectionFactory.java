@@ -8,8 +8,8 @@ public class ConnectionFactory {
 
 	private static final String DRIVER = "com.mysql.jdbc.Driver";
 	private static final String URL = "jdbc:mysql://cs5200-fall2018-ssaurav.cays9zoc70lu.us-east-1.rds.amazonaws.com/cs5200_fall2018_ssaurav_ext_cr";
-	private static final String USER = "ssaurav";
-	private static final String PASSWORD = "AwsRds.18";
+	private static final String USER = "xyz";
+	private static final String PASSWORD = "dshsdhds";
 	private static java.sql.Connection dbConnection = null;
 
 	public static Connection getConnection() throws ClassNotFoundException, SQLException {
